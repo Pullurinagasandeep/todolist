@@ -1,0 +1,40 @@
+body{
+  font-family: arial;
+  font-size: 30px;
+  background-color:rgb(240, 240, 240);
+}
+
+.inputname,.inputduedate  {
+  height: 25px;
+  border-radius: 2px ;
+  border-style: solid;
+  font-size: 14px;
+  vertical-align: top;
+  background-color: transparent;
+}
+
+
+.add-button{
+  background-color:rgb(0, 150, 0);
+  border:none;
+  padding: 10px 20px;
+}
+
+.js-list,.input-list{
+  display: grid;
+  grid-template-columns: 1fr 1fr 100px;
+  column-gap: 10px;
+  row-gap: 10px;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.js-list{
+  font-size: 20px;
+}
+
+.delete-button{
+  background-color: rgb(97, 94, 94);
+  border:none;
+  padding: 10px 20px;
+}
